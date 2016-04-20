@@ -1,3 +1,17 @@
 encoding: utf-8
 highlighter: pygments
-baseurl: /EnglishCourse
+baseurl: /Unity-CustomGravitationsKit-Demos
+exclude: [ "*.cmd", "build.cmd", "publish.cmd", "run.cmd"]
+
+collections:
+- main_page_articles:
+- sidebar:
+
+collections:
+  main_page_articles:
+    visible: 'yes'
+  sidebar:
+    visible: 'yes'
+    hide_splitline: 'no'
+  docs:
+    asset_version: '1.0'
