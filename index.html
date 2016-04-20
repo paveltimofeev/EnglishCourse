@@ -26,18 +26,27 @@
         </center>
         <hr/>
         
-        <!-- max 3 sections -->
         {% for sect in site.sidebar limit:4 %}
-          {{ sect.content }}
+          
+          {% if sect.visible == 'yes' %}
+            {{ sect.content }}
+          {% endif %}
+
+        }
         {% endfor %}
 
       </header>
         
         {% include main.html %}
         
-      <footer>
+        <hr/>
+
         {% include footer.html %}
-      </footer>
+      <!--
+        <footer>
+          {% include footer.html %}
+        </footer>
+      -->
     </div>
     <script src="javascripts/scale.fix.js"></script>
     
