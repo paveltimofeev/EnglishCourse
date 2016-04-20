@@ -6,7 +6,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Asset: Custom Garvitations Kit | Demo projects</title>
+    <title>English Cource</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
@@ -24,16 +24,11 @@
           <h2 class="p-name">English Cource<br/>
           <small>Notes</small></h2>
         </center>
-        
         <hr/>
         
         <!-- max 3 sections -->
         {% for sect in site.sidebar limit:4 %}
-        
           {{ sect.content }}
-          {% if sect.hide_splitline != 'yes' %}
-            <hr/>
-          {% endif %}
         {% endfor %}
 
       </header>

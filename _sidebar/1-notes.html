@@ -1,0 +1,12 @@
+---
+title: Info
+visible: 'yes'
+---
+
+<p><strong>Notes</strong></p>
+<p>
+  {% for note in site.main_page_articles %}
+  <a href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a></br>
+  {% endfor %}
+</p>
+<hr/>
