@@ -7,7 +7,7 @@ Label
 ```
 Badge
 ```html
-<span class="badge badge-success">Note</span>Note</span> 
+<span class="badge badge-success">Note</span>
 ```
 Colors:
 default primary success info warning danger
