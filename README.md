@@ -5,6 +5,12 @@ Label
 ```html
 <span class="label label-info">Note</span> 
 ```
+
+Label with tooltip
+```html
+<span class="label label-info" data-toggle="tooltip" title="Tooltip message!">Note</span> 
+```
+
 Badge
 ```html
 <span class="badge badge-success">Note</span>
