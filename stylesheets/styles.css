@@ -24,7 +24,7 @@ em span {
     display: none;
 }
 em:hover span {
-    display: block;
+    display: inline-block;
 }
 
 #logo {
