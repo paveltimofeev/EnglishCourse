@@ -7,6 +7,23 @@ body {
   font-weight:300;
 }
 
+em { 
+    font-weight: 700;
+    color: black;
+    font-style: initial;
+    cursor: pointer;
+}
+
+em span {
+    font-weight: 700;
+    color: black;
+    font-style: italic;
+    font-size: small;
+    margin-left: 5px;
+    text-decoration: 
+    display: none;
+}
+
 #logo {
     height: 128px;
     padding-bottom: 5px;
