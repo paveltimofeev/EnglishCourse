@@ -20,8 +20,12 @@ em span {
     font-style: italic;
     font-size: small;
     margin-left: 5px;
-    text-decoration: 
+    text-decoration: undeline;
     display: none;
+}
+
+em:focus + em span{
+display:block;
 }
 
 #logo {
