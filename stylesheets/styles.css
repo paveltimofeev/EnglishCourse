@@ -23,6 +23,9 @@ em span {
     text-decoration: undeline;
     display: none;
 }
+em:hover span {
+    display: block;
+}
 
 #logo {
     height: 128px;
