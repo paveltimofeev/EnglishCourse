@@ -24,10 +24,6 @@ em span {
     display: none;
 }
 
-em:focus+span{
-display:block;
-}
-
 #logo {
     height: 128px;
     padding-bottom: 5px;
