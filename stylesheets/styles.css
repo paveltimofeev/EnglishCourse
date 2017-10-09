@@ -14,7 +14,7 @@ em {
     cursor: pointer;
 }
 
-em span {
+.tip {
     font-weight: 700;
     color: black;
     font-style: italic;
@@ -24,7 +24,7 @@ em span {
     display: none;
 }
 
-em:focus + em span{
+em:focus + .tip{
 display:block;
 }
 
