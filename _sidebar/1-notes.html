@@ -5,7 +5,7 @@ visible: 'yes'
 
 <p class="hidden-xs"><strong>Content</strong></p>
 <p class="hidden-xs">
-  {% for note in site.main_page_articles %}
+  {% for note in site.main_page_articles reversed %}
   <a href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a></br>
   {% endfor %}
 </p>
